@@ -1,0 +1,141 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1a73e8;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+      margin: auto;
+}
+
+  
+#profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info {
+    max-width: 600px;
+}
+
+.profile-info h2 {
+    margin-top: 0;
+    color: #1a73e8;
+}
+
+.profile-info p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Skills Section */
+#skills {
+    margin-bottom: 2rem;
+}
+
+#skills h2 {
+    color: #1a73e8;
+    margin-bottom: 1rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.skill-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    flex: 200px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.skill-item:hover {
+    transform: translate(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Experience Section */
+#experience {
+    margin-bottom: 2rem;
+}
+
+#experience h2 {
+    color: #1a73e8;
+    margin-bottom: 1rem;
+}
+
+#experience p {
+    line-height: 1.8;
+    border-radius: 20PX;  
+    background: #fff;  
+    border: 2rem solid rgb(255, 255, 255);
+    
+}
+
+/* Contact Section */
+#contact {
+    margin-bottom: 2rem;
+}
+
+#contact h2 {
+    color: #1a73e8;
+    margin-bottom: 1rem;
+}
+
+#contact a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer p {
+    margin: 0;
+}
+
+ 

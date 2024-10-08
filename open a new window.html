@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open New Window</title>
+    <style>
+        /* CSS to style the button */
+        .open-window-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button class="open-window-btn" onclick="openNewWindow()">Open New Window</button>
+    <button class="open-window-btn" onclick="openNewWindows()">Open New Window</button>
+
+    <script>
+        function openNewWindows(){
+            window.open("https://copilot.microsoft.com/?cc=vn&msockid=0ebc22dc79926587111b308d783f6410","_blank","width=100%,height=100%")
+        }
+        function openNewWindow() {
+            window.open("", "_blank", "width=600,height=400");
+        }
+    </script>
+</body>
+</html>
